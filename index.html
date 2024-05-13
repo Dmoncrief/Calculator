@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial scale=1.0">
     <title>Document</title>
-    <script src = "scripts/index.js"></script>
-    <link href="site.css">
+    <link rel="stylesheet" type="site.csss" href="site.css">
+   
 </head>
 <body>
 
 <main>
+   <div id="calculatorform"></div>
 <div class ="container">
 <div class="row">
 <div class="col">
-    <div id="Thecalculator">
+    <div>
+<label for="numberField1"> Number 1:</label>
+<input id="numberField1" type ="text">
 </div>
 <div>
-<label for="numberField"> Number 1:</label>
-<input id="numberField" type ="text">
-</div>
-<div>
-    <label for="numberField"> Number 2:</label>
-    <input id="numberField" type ="text">
-
+    <label for="numberField2"> Number 2:</label>
+    <input id="numberField2" type ="text">
+ <div id="calculatorform">
 <div class="mb-3">
 <input id="addBtn" type="button" value="Add">
 <input id="subtractBtn" type="button" value="Subtract">
@@ -37,7 +36,7 @@
 </div>
 
 </div>
-
+</div>
 
 
 
@@ -74,6 +73,6 @@
 
 
 
-
+ <script src = "scripts/index.js"></script>
 </body>
 </html>
