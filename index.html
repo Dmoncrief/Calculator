@@ -1,18 +1,22 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial scale=1.0">
     <title>Document</title>
-    <link href="css/site.css" rel="stylesheet">
+
 </head>
+
 <body>
+
     <main>
-        
+        <div id="formContainer">
             <div class="container">
                 <div class="row">
                     <div class="col">
+                        <div id="Thecalculator">
+                        </div>
                         <div>
                             <label for="numberField1"> Number 1:</label>
                             <input id="numberField1" type="text">
@@ -20,29 +24,59 @@
                         <div>
                             <label for="numberField2"> Number 2:</label>
                             <input id="numberField2" type="text">
-                        </div> 
 
-                        <div class="mb-3">
-                            <input id="addBtn" type="button" value="Add">
-                            <input id="subtractBtn" type="button" value="Subtract">
-                            <input id="multiplyBtn" type="button" value="Multiply">
-                            <input id="divideBtn" type="button" value="Divide">
+                            <div class="mb-3">
+                                <input id="addBtn" type="button" value="Add">
+                                <input id="subtractBtn" type="button" value="Subtract">
+                                <input id="multiplyBtn" type="button" value="Multiply">
+                                <input id="divideBtn" type="button" value="Divide">
+                            </div>
+                            <div class="mb-3">
+                                <p id="messagePara"></p>
+
+                            </div>
+
                         </div>
-                        <div class="mb-3">
-                            <p id="messagePara"></p>
-                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div>
+                        <label for="answerField">Answer:
+                            <input id="answerField" type="text" readonly>
+                        </label>
                     </div>
                 </div>
 
-                <div>
-                    <label for="answerField">Answer:
-                        <input id="answerField" type="text" readonly>
-                    </label>
-                </div>
+
+
+
             </div>
-       </main
-    
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </main>
+
+
 
     <script src="scripts/index.js"></script>
 </body>
+
 </html>
